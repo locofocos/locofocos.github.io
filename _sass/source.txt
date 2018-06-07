@@ -1,0 +1,2 @@
+These 4 files came from https://github.com/pages-themes/midnight
+I was trying the midnight theme, but it seems to be missing several default layouts that the default "minima" has. This should theme the minima theme like midnight.
