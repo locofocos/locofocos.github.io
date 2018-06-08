@@ -53,6 +53,8 @@ When visualizing a few branches, we have the luxury of viewing every commit. Thi
 {% include_relative /snippets/graph_helper.rb %}
 {% endhighlight %}
 Word of warning- the script runs in O(n^2) time, based on the number of branches. There's probably a more efficient algorithm, but I haven't investigated this yet.
+
+{:start="3"}
 3. Setup an alias to run the script in the current repo:
 ```
 # .gitconfig snippet
