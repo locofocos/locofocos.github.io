@@ -4,6 +4,7 @@
 @import "minima";
 
 
+// Limit the max height of code snippets
 .highlight pre {
   max-height: 400px;
   overflow-y: scroll;
