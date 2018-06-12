@@ -1,7 +1,27 @@
 ---
 ---
 
+// From minima.scss
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
 @import "minima";
+
+// From _base.scss
+pre,
+code {
+  @include relative-font-size(0.9375);
+  border: 1px solid $grey-color-light;
+  border-radius: 3px;
+  background-color: #19194a;
+}
+
+
 
 
 // Limit the max height of code snippets
