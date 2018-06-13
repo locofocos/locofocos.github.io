@@ -5,7 +5,7 @@ tags: git ruby
 ---
 There are many reasons for wanting to visualize the git graph. It helps verify that a given branch is in compliance with the team's branching standards (like rebasing before making a code review or pull request). It's handy when collaborating with other developers in the same git repository. We try to avoid branching off other issue branches, but sometimes it happens when the team needs to work together on similar features. In those situations where your work depends on a colleague's work, visualizing the graph is practically necessary.
 
-## Existing Tools for visualizing git graphs
+## Existing tools for visualizing git graphs
 - *git plus some alias you found on StackOverflow*- Works well, but not with large number of branches (my workaround below).
 
 - *Github network graph*- Generally my go-to choice when I'm on someone else's computer. Not everyone has a license though. It also won't be helpful for visualizing before you push (like if you want to verify you've performed a merge/rebase correctly).
@@ -31,7 +31,7 @@ git log --graph --all
 Nobody wants to press that many buttons, so set up an alias in your .gitconfig file:
 ```
 [alias]
-	lg = log --graph --all
+  lg = log --graph --all
 ```
 so then you can just run `git lg`.
 
@@ -60,14 +60,14 @@ Word of warning- the script runs in O(n^2) time, based on the number of branches
 # .gitconfig snippet
 [alias]
   ...
- 	logfix = !ruby /c/DEV/graph_helper.rb
+  logfix = !ruby /c/DEV/graph_helper.rb
 ```
 4. Setup an alias for the actual graph command:
 ```
 # .gitconfig snippet
 [alias]
   ...
-	lgs = log --graph --all --simplify-by-decoration
+  lgs = log --graph --all --simplify-by-decoration
 ```
 
 #### Usage
