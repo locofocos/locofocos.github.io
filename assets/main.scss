@@ -50,6 +50,11 @@ body a:visited {
   color: $brand-color;
 }
 
+// Remove an annoying little bar at the top of the header
+.site-header {
+  border-top: 0px;
+}
+
 
 // Limit the max height of code snippets
 .highlight pre {
