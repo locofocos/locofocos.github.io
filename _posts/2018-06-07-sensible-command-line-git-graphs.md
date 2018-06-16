@@ -20,7 +20,7 @@ There are many reasons for wanting to visualize the git graph. It helps verify t
 Whatever your taste, one of the tools mentioned above should work well. Try them out and use each when it makes sense. But I can almost guarantee that you'll become overwhelmed trying to visualize a large number of branches.
 
 ## Visualizing a few branches via CLI
-Set up a concise git log format of your choice. My favorite is slightly adapted from [https://coderwall.com/p/euwpig/a-better-git-log](https://coderwall.com/p/euwpig/a-better-git-log):
+To do this, set up a concise git log format of your choice. My favorite is slightly adapted from [https://coderwall.com/p/euwpig/a-better-git-log](https://coderwall.com/p/euwpig/a-better-git-log):
 ```
 git config --global format.pretty format:"%C(bold cyan)%h%Creset %C(cyan)<%an>%Creset %Cgreen(%cr)%Creset%C(yellow)%d%Creset %<(80,trunc)%s"
 ```
@@ -35,16 +35,16 @@ Nobody wants to press that many buttons, so set up an alias in your .gitconfig f
 ```
 so then you can just run `git lg`.
 
-Example running this on a repo with many branches ([https://github.com/vuejs/vue](https://github.com/vuejs/vue)):
+Here's an example running this on a repo with many branches ([https://github.com/vuejs/vue](https://github.com/vuejs/vue)):
 
 ![Visualizing branches using git lg]({{ "assets/git_lg.PNG" | absolute_url }})
 
-Notice what happens when multiple branches have concurrent development. What branch does the yellow line belong to? How far will I need to scroll to see what branch it was based off of, and off which commit from that parent branch?
+It's helpful, but notice what happens when multiple branches have concurrent development. What branch does the yellow line belong to? How far will I need to scroll to see what branch it was based off of, and off which commit from that parent branch?
 
 ![Visualizing concurrent branches using git lg]({{ "assets/git_lg_confusing.PNG" | absolute_url }})
 
 ## Visualizing many branches via CLI
-When visualizing a few branches, we have the luxury of viewing every commit. This becomes overwhelming when the repo has a large number of branches. Granted, we could explicitly specify a few branches like `git log --graph master mybranch anotherbranch` instead of using `--all`, but sometimes you want to see them *all*, even if each branch has numerous commits.
+When visualizing a few branches, we have the luxury of viewing every commit. This becomes overwhelming when the repo has a large number of branches. Granted, we could explicitly specify a few branches like `git log --graph master mybranch anotherbranch` instead of using `--all`, but sometimes you want to see them *all*, even if each branch has numerous commits. Here's my solution.
 
 #### Setup
 1. Install ruby for running my script.
@@ -74,11 +74,11 @@ Word of warning- the script runs in O(n^2) time, based on the number of branches
 1. Run `git logfix` to prepare the temporary branches necessary for displaying the graph.
 1. Run `git lgs` to show the simplified/condenses git graph.
 
-Example running this on a repo with many branches ([https://github.com/vuejs/vue](https://github.com/vuejs/vue)):
+Here's an example running this on a repo with many branches ([https://github.com/vuejs/vue](https://github.com/vuejs/vue)):
 
 ![Visualizing branches using git lgs]({{ "assets/git_lgs.PNG" | absolute_url }})
 
 This is showing almost every branch currently in existence, all inside a single terminal window. Nice, right?
 
 #### How it works
-Git has a built in feature to [simplify history](https://git-scm.com/docs/git-log#_history_simplification). However, it discards all commits that don't have a branch attached to them. This would cause many of the graph edges to disappear. By creating temporary branches at all of the merge-bases, we ensure that `--simplify-by-decoration` shows the most concise version of the graph possible.
+Git has a built in feature to [simplify history](https://git-scm.com/docs/git-log#_history_simplification). However, it discards all commits that don't have a branch attached to them. This would cause many of the graph edges to disappear. By creating temporary branches at all of the merge-bases, we ensure that `--simplify-by-decoration` shows the relationships between all the branches, while still showing the most concise version of the graph possible.
