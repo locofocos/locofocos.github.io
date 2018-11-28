@@ -3,6 +3,8 @@ layout: post
 title:  "Holy Unto the Lord"
 tags: bible holy divorce
 ---
+These are my notes from a teaching/sermon I presented at our home church, Freedom Hill KC. Feel free to contact me if you'd like more information about our church.
+
 Holy unto the Lord. Or "unto" something else.
 Not covering plain old "be holy". I want to look at the "unto".
 
