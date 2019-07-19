@@ -43,8 +43,20 @@ It's helpful, but notice what happens when multiple branches have concurrent dev
 
 ![Visualizing concurrent branches using git lg]({{ "assets/git_lg_confusing.PNG" | absolute_url }})
 
-## Visualizing many branches via CLI (Advanced)
-When visualizing a few branches, we have the luxury of viewing every commit. This becomes overwhelming when the repo has a large number of branches. Granted, we could explicitly specify a few branches like `git log --graph master mybranch anotherbranch` instead of using `--all` (which is certainly a technique I'd recommend when the following one is overkill). However, sometimes you want to see an overview of them *all*, even if each branch has numerous commits. Here's my solution.
+## Suggested operations for learning
+I think visualizing the git graph is one of the most helpful tools for understanding git, so try it before and after these common git operations. The basic `git lg` (alias for `git log --graph --all`) will work fine to visualize these:
+- `git commit`
+- `git pull` and `git fetch` (and for learning the difference between them)
+- `git push`, particularly right before your workflow calls for a force push
+- `git checkout`
+- `git merge` and `git rebase`
+- `git reset`
+
+## Visualizing an overwhelming number of branches via CLI (Advanced)
+
+I recommend most people stop reading here. But for the adventurous git geeks:  
+
+When visualizing a few branches, we have the luxury of viewing every commit. This becomes overwhelming when the repo has too many branches. Granted, we could explicitly specify a few branches like `git log --graph master mybranch anotherbranch` instead of using `--all` (which is certainly a technique I'd recommend when the following one is overkill). However, sometimes you want to see a condensed overview of them *all*, even if each branch has numerous commits. Here's my solution.
 
 #### Setup
 1. Install ruby for running my script.
@@ -82,12 +94,3 @@ This is showing almost every branch currently in existence, all inside a single 
 
 #### How it works
 Git has a built in feature to [simplify history](https://git-scm.com/docs/git-log#_history_simplification). However, it discards all commits that don't have a branch attached to them. This would cause many of the graph edges to disappear. By creating temporary branches at all of the merge-bases, we ensure that `--simplify-by-decoration` shows the relationships between all the branches, while still showing the most concise version of the graph possible.
-
-## Suggested operations for learning
-I think visualizing the git graph is one of the most helpful tools for understanding git, so try it before and after these common git operations. The basic `git lg` (alias for `git log --graph --all`) will work fine to visualize these:
-- `git commit`
-- `git pull` and `git fetch` (and for learning the difference between them)
-- `git push`, particularly right before your workflow calls for a force push
-- `git checkout`
-- `git merge` and `git rebase`
-- `git reset`
