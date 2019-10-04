@@ -28,7 +28,7 @@ You need the timezone.
 
 But in what format? You need the timezone formatted in... the name of the nearest big city whose timezone rules you want to follow. What?! Surely, something like "US/Central" would be more appropriate, right? Wrong; those are deprecated, though you can probably get by with them for now.
 
-The most popular (in my barely-qualified opinion) means of defining timezones comes from the "tz" database. This Wikipedia article has a great list to reference: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones My timezone is listed as "America/Chicago". You might have seen these listed on a map when you installed a new operating system. It turns out picking from a small handful of cities isn't sloppiness, but actually a very precise approach!
+The most popular (in my barely-qualified opinion) means of defining timezones comes from the "tz" database. This Wikipedia article has a great list to reference: [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones]. My timezone is listed as "America/Chicago". You might have seen these listed on a map when you installed a new operating system. It turns out picking from a small handful of cities isn't sloppiness, but actually a very precise approach!
 
 Each of those timezones defines all sorts of nuances around UTC offsets, when/if the UTC offset shifts for daylight savings time, and even such niceties as which years that city chose _not_ to observe daylight savings time. Having a timezone, as specified by the tz database, plus an ISO-8601 timestamp, really seems to be the holy grail for datetimes. Just another string field to your data model with the timestamp field.
 
