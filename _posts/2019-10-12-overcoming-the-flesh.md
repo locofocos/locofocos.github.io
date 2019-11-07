@@ -7,7 +7,7 @@ tags: bible sin flesh
 This post is still in a mostly-draft state, but I wanted to publish it anyways for sharing.  
 
 Pre-requisites:  
-* Understand the Bible's message of salvation - https://peacewithgod.net/  
+* Understand the Bible's message of salvation - <https://peacewithgod.net/>  
 * Read [Romans 6:1-8:17](https://www.biblegateway.com/passage/?search=Romans+6-8&version=WEB)  
 
 What does it look like to be a slave to sin, or a slave to the flesh?  
