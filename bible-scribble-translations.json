@@ -1,0 +1,34 @@
+{
+  "translations": [
+    {
+      "abbr": "WEB",
+      "description": "World English Bible 2000",
+      "url": "https://github.com/locofocos/bible-scribbles-content/raw/master/web.gz"
+    },
+    {
+      "abbr": "ASV",
+      "description": "American Standard Version 1901",
+      "url": "https://github.com/locofocos/bible-scribbles-content/raw/master/asv.gz"
+    },
+    {
+      "abbr": "DARBY",
+      "description": "Darby Translation 1890",
+      "url": "https://github.com/locofocos/bible-scribbles-content/raw/master/darby.gz"
+    },
+    {
+      "abbr": "YLT",
+      "description": "Young's Literal Translation 1862",
+      "url": "https://github.com/locofocos/bible-scribbles-content/raw/master/ylt.gz"
+    },
+    {
+      "abbr": "TS98",
+      "description": "The Scriptures 1998",
+      "url": "https://github.com/locofocos/bible-scribbles-content/raw/master/ts1998%2B.bblx"
+    },
+    {
+      "abbr": "HRB",
+      "description": "Hebraic Roots Bible 2012",
+      "url": "https://github.com/locofocos/bible-scribbles-content/raw/master/HRB2012.bbl.mybible"
+    }
+  ]
+}
