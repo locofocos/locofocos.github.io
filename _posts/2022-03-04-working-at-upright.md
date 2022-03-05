@@ -7,7 +7,7 @@ My team at Upright is hiring for a software engineering position. I'm writing th
 
 ## Logistical details
 
-The exact title isn't set in stone, but we're looking for someone with a few years of experience. Here's the job listing: https://weworkremotely.com/remote-jobs/upright-labs-fullstack-engineer. We have a mix of Software Engineers and Senior Software Engineers, so expect a title like that.
+The exact title isn't set in stone, but we're looking for someone with a few years of experience. Here's the job listing: [https://weworkremotely.com/remote-jobs/upright-labs-fullstack-engineer](https://weworkremotely.com/remote-jobs/upright-labs-fullstack-engineer). We have a mix of Software Engineers and Senior Software Engineers, so expect a title like that.
 
 We're looking for either a fullstack engineer or fullstack with a frontend focus. See the job listing for the tech stack (basically Rails backend + React frontend).
 
