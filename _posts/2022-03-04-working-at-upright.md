@@ -7,13 +7,15 @@ My team at Upright is hiring for a software engineering position. I'm writing th
 
 ## Logistical details
 
-The exact title isn't set in stone, but we're looking for someone with a few years of experience. Here's the job listing: [https://weworkremotely.com/remote-jobs/upright-labs-fullstack-engineer](https://weworkremotely.com/remote-jobs/upright-labs-fullstack-engineer). We have a mix of Software Engineers and Senior Software Engineers, so expect a title like that.
+The exact title isn't set in stone, but we're looking for someone with a few years of experience. Here's the job listing: https://weworkremotely.com/remote-jobs/upright-labs-fullstack-engineer. We have a mix of Software Engineers and Senior Software Engineers, so expect a title like that.
 
 We're looking for either a fullstack engineer or fullstack with a frontend focus. See the job listing for the tech stack (basically Rails backend + React frontend).
 
-Salaries aren't adjusted to where you live, which is great if you're anywhere outside of Silicon Valley or New York IMO, plus we have the flexibility to move anywhere in North American timezones. My salary is very similar to the other software engineers I've kept in close touch with over the years.
+Salaries aren't adjusted to where you live, which is great if you're anywhere outside of Silicon Valley or New York IMO, plus we have the flexibility to move anywhere in North American timezones. My salary is very similar to the other software engineers I've kept in close touch with over the years. Glad to share more info about compensation over private chat.
 
-It's fully remote long-term, not just due to COVID.
+It's **fully remote** long-term, not just due to COVID.
+
+The interview process is 1 phone screening + 3 technical interviews (an hour each) over Zoom. We do include some live-coding problems. We try to stay away from leetcode problems, in favor of real-world coding and design problems. We're not trying to drill you on the specific nuances of some framework, but you should be proficient in Ruby and/or Javascript.
 
 ## Culture
 
