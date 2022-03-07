@@ -17,6 +17,8 @@ It's **fully remote** long-term, not just due to COVID.
 
 The interview process is 1 phone screening + 3 technical interviews (an hour each) over Zoom. We do include some live-coding problems. We try to stay away from leetcode problems, in favor of real-world coding and design problems. We're not trying to drill you on the specific nuances of some framework, but you should be proficient in Ruby and/or Javascript.
 
+We're not able to sponsor H-1B work visas, unfortunately.
+
 ## Culture
 
 I think everyone really enjoys themselves here, and we have good relationships. I smile a lot throughout the day. We have a great set of custom emojis in slack, and we use them liberally `:happy-gandalf-nodding:`.
