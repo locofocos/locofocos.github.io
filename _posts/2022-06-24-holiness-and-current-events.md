@@ -51,7 +51,7 @@ Disengage from the sensational discussions. Let's stop absorbing and entertainin
 
 Detach the "modern conservative addons" from our conservative beliefs, or at least make it clear that it's your personal beliefs, not something we inherently share as believers in Christ.
 
-Believe me, you'll know when the entire country has turned to the Lord. Believe me, 90% of conservatives won't heed this, so they'll go on discussing sensational events. The investigational journalism will keep getting pushed. Your personal involvement won't make a lick of difference in whether we pass a law banning George Soroses, or if we find Obama's birth certificate.
+Believe me, you'll know when the entire country has turned to the Lord. Believe me, 90% of conservatives won't heed this, so they'll go on discussing sensational events. The investigational journalism will keep getting pushed. Sure, we should vote and leave voicemails for our senator's interns (it makes a difference!). But your personal involvement won't make a lick of difference in whether we pass a law banning George Soroses, or if we find Obama's birth certificate.
 
 But taking the time to be actively involved in your community _will_ make a difference. Go talk to people. Invite your neighbors to get together to read the Bible and spend time with the Lord. Find people going through tough situations, and offer to talk with them and try to disciple them. 
 
