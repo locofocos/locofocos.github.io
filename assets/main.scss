@@ -17,16 +17,13 @@
 
 
 // From minima.scss
-$text-color:       #d2cec6;
-$background-color: #2b2c31;
-$brand-color:      #5e92d3;
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
 
-$grey-color:       #b7ab9a;
-$grey-color-light: darken($grey-color, 40%);
-$grey-color-dark:  lighten($grey-color, 25%);
-
-// Import this before minima does so we get our version?
-@import "minima/syntax-highlighting";
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
 
 @import "minima";
 
@@ -39,31 +36,7 @@ code {
   background-color: #19194a;
 }
 
-// Other dark goodies
-::-webkit-scrollbar {
-    background-color: #2d2e35;
-    color: #beb6a6;
-}
-::-webkit-scrollbar-corner {
-    // background-color: #2a2b31; // original value from DarkReader
-    background-color: #333;
-}
-::-webkit-scrollbar-thumb {
-    //background-color: #373a42; // original value from DarkReader
-    background-color: #444;
-}
 
-::selection {
-    background-color: #1963bd;
-    color: #e6e6e6;
-}
-
-// The visited hyperlinks would otherwise have too low contrast.
-// "body" because it's an easy way to slightly raise specificity.
-body a:visited {
-  // color: darken($brand-color, 15%); // original value
-  color: $brand-color;
-}
 
 // Remove an annoying little bar at the top of the header
 .site-header {
