@@ -5,9 +5,11 @@ tags: bible politics
 ---
 I believe we should try to keep all of God's commandments, so I thought I could provide some interesting commentary on this tweet:
 
-> MAGA: Canceling student loans is immoral. This is why we need a Govt based on the Bible.
-> Deuteronomy 15: “At the end of every seven years you must cancel debts. This is how: Every creditor shall cancel any loan they have made.”
-> MAGA: Not that part of the Bible.
+> MAGA: Canceling student loans is immoral. This is why we need a Govt based on the Bible.  
+>
+> Deuteronomy 15: “At the end of every seven years you must cancel debts. This is how: Every creditor shall cancel any loan they have made.”  
+> 
+> MAGA: Not that part of the Bible.  
 > https://twitter.com/qasimrashid/status/1562968128359137280
 
 I agree that we should cancel loans every 7 years. 
