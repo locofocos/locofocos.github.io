@@ -60,7 +60,7 @@ The modern American system of going into debt with interest for a long time (for
 
 As a country, we need to move away from systems that require large amounts of debt. Businesses should show support for more cost-effective vocational training by hiring people from these programs, or establishing them when programs don't exist. We should draft legislation that stops huge institutional/foreign investors from buying up houses - just let houses be for ordinary people to live in.
 
-As individuals, we should make life choices in a way that avoids debt as much as possible. Seek our vocational training programs if you're unable to go through college without debt. If you must have a mortage to avoid decades of rent payments, pick the most modest house you can stand and pay it off as soon as possible to avoid the burden of interest. Live within your means, and try to secure the means of production when you can.
+As individuals, we should make life choices in a way that avoids debt as much as possible. Seek out vocational training programs if you're unable to go through college without debt. If you must have a mortage to avoid decades of rent payments, pick the most modest house you can stand and pay it off as soon as possible to avoid the burden of interest. Live within your means, and try to secure the means of production when you can.
 
 ## Comments section
 
