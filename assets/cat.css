@@ -1,0 +1,44 @@
+
+body {
+  /* padding: 200px; */
+  /* background-color: lightgray; */
+}
+
+.square {
+  display: inline-block;
+  margin: -2px;
+}
+
+.head {
+  position: relative;
+  bottom: -19px;
+}
+
+.body {
+  position: relative;
+  /* bottom: 117px; */
+}
+
+.body-and-butt {
+  display: inline-block;
+}
+
+.body-and-butt:hover .butt {
+  bottom: 50px;
+  transition: bottom 0.25s;
+}
+
+.butt {
+  position: relative;
+  bottom: 0px;
+  transition: bottom 0.5s 0.5s;
+}
+
+.body-and-butt:hover .body {
+  transform: skew(0, -40deg) translate(0, -24px);
+  transition: transform 0.25s;
+}
+
+.body {
+  transition: transform 0.5s 0.5s;
+}
