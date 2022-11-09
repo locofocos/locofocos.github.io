@@ -1,9 +1,4 @@
 
-body {
-  /* padding: 200px; */
-  /* background-color: lightgray; */
-}
-
 .square {
   display: inline-block;
   margin: -2px;
@@ -14,31 +9,24 @@ body {
   bottom: -19px;
 }
 
-.body {
-  position: relative;
-  /* bottom: 117px; */
-}
-
 .body-and-butt {
   display: inline-block;
 }
 
 .body-and-butt:hover .butt {
-  bottom: 50px;
-  transition: bottom 0.25s;
-}
-
-.butt {
-  position: relative;
-  bottom: 0px;
-  transition: bottom 0.5s 0.5s;
-}
-
-.body-and-butt:hover .body {
-  transform: skew(0, -40deg) translate(0, -24px);
+  transform: scaleY(1.2) translate(0, -35px);
   transition: transform 0.25s;
 }
 
+.body-and-butt:hover .body {
+  transform: skew(0, -36deg) translate(0, -24px);
+  transition: transform 0.25s;
+}
+
+.butt {
+  transition: transform 0.5s 0.4s;
+}
+
 .body {
-  transition: transform 0.5s 0.5s;
+  transition: transform 0.5s 0.4s;
 }
