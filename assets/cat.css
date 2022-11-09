@@ -1,4 +1,10 @@
 
+@media screen and (max-width: 600px) {
+  .cat-container {
+    zoom: 70%;
+  }
+}
+
 .square {
   display: inline-block;
   margin: -2px;
