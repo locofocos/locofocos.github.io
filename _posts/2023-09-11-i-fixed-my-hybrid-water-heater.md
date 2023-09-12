@@ -15,11 +15,15 @@ I called the manufacturer, and a friendly technician chatted with me. He happily
 
 Little did he know, I had an old Radioshack multimeter, and I've poked around inside applicances before. The service manual for some related AO Smith model explained how to access the diagnostic menu, which gave readings for a few temperature sensors. My "coil temp at hairpin of evaporator" was reading 123 F, which was preposterously high. After lots of googling to understand words like "suction", "discharge", and "hairpin of evaporator", I located the sensors inside it. Along with some confirmation from a wiring diagram in the service manual, it was clear which sensor was which. These were the thermistors I saw in the first youtube video.
 
+![water heater wiring diagram]({{ "assets/water heater wiring diagram.jpg" | absolute_url }})
+
 The 3 sensors plugged into the mainboard with a plastic white connector. Removing it, I could check the resistance of each sensor at the plug. The internet tells me that typical thermistor values are 10,000 ohms and up. My suction and discharge temp sensors read 10,000 and 45,000 ohms. But the coil temp sensor read 660 ohms, which was suspiciously low. That was the sensor that was reporting 123 F. So it seemed like the HVAC system was reading the evaporator coil temperature at startup to determine the ambient air temperature. Lower resistance means a higher temperature reading - bingo!
 
 I called AO Smith back with a vague but truthful answer: Your tech said I needed to get an HVAC guy to diagnose it, and figure out what part we need. It turns out it was one of the temperature sensors. The diagnostic menu was showing.... and after checking the resistance, the coil temp sensor was only 660 ohms. Can we get part number X?
 
 And they obliged! The new part has 3 thermisters for temperature sensors. 2 of them had roughly the same reading the old sensors, but the new coil temp sensor was much higher at 9,990 ohms. 
+
+![water heater temp sensor]({{ "assets/water heater temp sensor.jpg" | absolute_url }})
 
 The process of replacing them wasn't tricky. The sensors are surrounded with foam insulation, held tightly in place with zip ties. The foam insulation helps them get a better reading from their copper refrigerant line. A little metal spring helps hold each one in place. It's annoying standing on a ladder and reading down into the water heater from the top, but it's very doable for an eager layman. It's also a great chance to clean out the evaporator coil. There are about a dozen metal screws around the top edge, holding the lid in place. Removing and replacing these accounts for probably half of the work! A few holes almost wouldn't line up, but I was determined not to have any extra parts afterwards.
 
