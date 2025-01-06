@@ -39,10 +39,6 @@ Here's an example running this on a repo with many branches ([https://github.com
 
 ![Visualizing branches using git lg]({{ "assets/git_lg.PNG" | absolute_url }})
 
-It's helpful, but notice what happens when multiple branches have concurrent development. What branch does the yellow line belong to? How far will I need to scroll to see what branch it was based off of, and off which commit from that parent branch?
-
-![Visualizing concurrent branches using git lg]({{ "assets/git_lg_confusing.PNG" | absolute_url }})
-
 ## Suggested operations for learning
 I think visualizing the git graph is one of the most helpful tools for understanding git, so try it before and after these common git operations. The basic `git lg` (alias for `git log --graph --all`) will work fine to visualize these:
 - `git commit`
@@ -52,9 +48,13 @@ I think visualizing the git graph is one of the most helpful tools for understan
 - `git merge` and `git rebase`
 - `git reset`
 
-## Visualizing an overwhelming number of branches via CLI (Advanced)
+## Visualizing an overwhelming number of branches via CLI
 
-I recommend most people stop reading here. But for the adventurous git geeks:  
+**2025 update:** I haven't needed this next technique in a long time. I recommend most people stop reading here. In complicated situations, I typically avoid any headachces by passing a few specific branches, like `git log --graph feature-x branch-1234 origin/main`. But for the adventurous git geeks: 
+
+The techniques above are helpful, but notice what happens when multiple branches have concurrent development. What branch does the yellow line belong to? How far will I need to scroll to see what branch it was based off of, and off which commit from that parent branch?
+
+![Visualizing concurrent branches using git lg]({{ "assets/git_lg_confusing.PNG" | absolute_url }})
 
 When visualizing a few branches, we have the luxury of viewing every commit. This becomes overwhelming when the repo has too many branches. Granted, we could explicitly specify a few branches like `git log --graph master mybranch anotherbranch` instead of using `--all` (which is certainly a technique I'd recommend when the following one is overkill). However, sometimes you want to see a condensed overview of them *all*, even if each branch has numerous commits. Here's my solution.
 
