@@ -7,7 +7,7 @@ I want to propose how believers in Christ should approach discussions about curr
 
 ## Some context
 
-I'm a conservative, but in the more traditional sense of that word. You might _conserve_ water- meaning that you use less of it. Similarly, I approve of fewer parts of our culture- namely the parts that go against Biblical values. 
+I'm a conservative, but in a more high-level sense of that word. You might _conserve_ water- meaning that you use less of it. Similarly, I approve of fewer parts of our culture- namely the parts that go against Biblical values. I recently learned that my assumed definition of "conservative" is wrong. The canonical meaning is closer to "conserving how thiings are". Regardless, both definitions resonate with me.
 
 There are lots of noisy popular people that have tried to drag other viewpoints into the "conservative" label. Many of these ideas don't naturally stem out of Biblical values (or even from a secular definition of "conservative" from decades ago). Some examples:
 * Foreigners will bring crime into our country
@@ -47,7 +47,14 @@ I've felt this torment in my personal life; it's very real. After I've discussed
 
 ## So what do we do
 
-Disengage from the sensational discussions. Let's stop absorbing and entertaining ourselves with interesting current events.
+As a guiding principle, we should follow Philippians 4:8 -
+
+> Finally, brothers, whatever things are true, whatever things are honorable, whatever things are just, whatever things are pure, whatever things are lovely, whatever things are of good report: if there is any virtue and if there is any praise, think about these things
+> Philippians 4:8 (WEB)
+
+We should scrutinize all of our conversations and entertainment in light of this scripture, and other similar passages that describe the Kingdom of Heaven.
+
+With politics and news specifically, let's disengage from the sensational discussions. Let's stop absorbing and entertaining ourselves with interesting current events.
 
 Detach the "modern conservative addons" from our conservative beliefs, or at least make it clear that it's your personal beliefs, not something we inherently share as believers in Christ.
 
