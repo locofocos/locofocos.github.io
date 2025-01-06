@@ -7,7 +7,7 @@ I want to propose how believers in Christ should approach discussions about curr
 
 ## Some context
 
-I'm a conservative, but in a more high-level sense of that word. You might _conserve_ water- meaning that you use less of it. Similarly, I approve of fewer parts of our culture- namely the parts that go against Biblical values. I recently learned that my assumed definition of "conservative" is wrong. The canonical meaning is closer to "conserving how thiings are". Regardless, both definitions resonate with me.
+I'm a conservative, but in a more high-level sense of that word. You might _conserve_ water- meaning that you use less of it. Similarly, I approve of fewer parts of our culture- namely the parts that go against Biblical values. I recently learned that my assumed definition of "conservative" is wrong. The canonical meaning is closer to "conserving how things are". Regardless, both definitions resonate with me.
 
 There are lots of noisy popular people that have tried to drag other viewpoints into the "conservative" label. Many of these ideas don't naturally stem out of Biblical values (or even from a secular definition of "conservative" from decades ago). Some examples:
 * Foreigners will bring crime into our country
