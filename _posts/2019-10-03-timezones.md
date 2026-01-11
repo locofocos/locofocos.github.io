@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Timezones are hard"
-tags: software-engineering
+tags: engineering
 published: true
 ---
 Timezones are hard. I learned a lot about handling them in a recent project at work. I was given the task of designing and implementing a React frontend application to show a list of events. As the project unfolded, I learned that timezones, in the right context, can present more edge cases than anyone would think during early design phases. Thankfully, there are ways to manage the complexity and weird cases that pop up, and I hope this blog will be a useful primer for anyone else going through a similar undertaking.
