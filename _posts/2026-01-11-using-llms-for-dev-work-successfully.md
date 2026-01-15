@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using LLMs for dev work successfully"
-tags: work engineering
+tags: work dev
 ---
 I’ve been using an LLM for some of my dev / architecture work. Here is my advice on how to use them successfully on real production systems.
 

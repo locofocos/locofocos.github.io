@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CSS cat simulator"
-tags: engineering
+tags: dev
 ---
 
 Go on, try to pet him.

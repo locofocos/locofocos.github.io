@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Anything Ratio Calculator"
-tags: tool engineering
+tags: tool dev
 ---
 View the calculator at [https://locofocos.com/anything-ratio-calc/](https://locofocos.com/anything-ratio-calc/)
 

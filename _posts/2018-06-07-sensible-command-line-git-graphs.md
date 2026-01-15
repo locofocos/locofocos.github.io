@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sensible Git Command Line Graphs"
-tags: git ruby
+tags: dev git ruby
 ---
 There are many reasons for wanting to visualize the git graph. I think it's one of the most helpful tools for understanding git, so try doing it before and after common git operations (see "suggested operations for learning" at the end). It's particularly handy for those times you can't avoid branching off another existing branch, like when multiple team members are working on the same feature. It's still useful any time you're collaborating with other developers in the same repository. It helps verify that a given branch is in compliance with the team's branching standards, and can save a lot of headaches by revealing rookie git mistakes much sooner.
 

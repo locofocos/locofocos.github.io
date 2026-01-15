@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I fixed my hybrid water heater"
-tags: engineering diy
+tags: diy
 ---
 I own a hybrid heat pump hot water heater, an AO Smith HP10-50H45DV. It's like a normal 50 gallon electric water heater, with a tiny air conditioner on the top. When it's running in "efficiency mode", the little HVAC system pumps heat from your house into the hot water, which is great during the summer. It uses about 33% as much electricity as a regular water heater. Remember the arrows in your science textbook showing heat flow in and out from air conditioners? When you're interested in the hot side of the heat pump equation, you get to keep the energy you put into the heat pump too, so it's a lot more efficient than cooling your house. So it pays for itself in about 3 years. If you don't want the cold air, the noise, or you need lots of hot water, it can optionally fall back to a regular 4500 watt heating element.
 

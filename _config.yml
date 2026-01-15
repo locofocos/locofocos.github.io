@@ -25,6 +25,11 @@ linkedin_username: patrick-boatner-89732383
 github_username:  locofocos
 repository: locofocos/locofocos.github.io
 
+# Navigation
+header_pages:
+  - dev.md
+  - about.md
+
 # Build settings
 markdown: kramdown
 theme: minima

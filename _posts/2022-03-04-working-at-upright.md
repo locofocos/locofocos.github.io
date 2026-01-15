@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Come work with me at Upright Labs"
-tags: work engineering
+tags: work
 ---
 My team at Upright is hiring for a software engineering position. I'm writing this to give a more personal impression of what the job and team looks like. Thanks for reading, and I hope you'll consider applying!
 
