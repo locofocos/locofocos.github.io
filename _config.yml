@@ -27,6 +27,7 @@ repository: locofocos/locofocos.github.io
 
 # Navigation
 header_pages:
+  - all.md
   - dev.md
   - about.md
 
